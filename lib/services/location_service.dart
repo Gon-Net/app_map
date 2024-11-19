@@ -15,9 +15,10 @@ import 'dart:convert' as convert;
 //   }
 // }
 
-class LocationService {
-  static const url = 'http://192.168.0.6:8000/api/';
-  
+class LocationService {  
+  //static const url = 'http://192.168.0.6:8000/api/';
+  static const url = 'https://c111-131-0-196-229.ngrok-free.app/api/';
+
   // Future<List<Map<String, dynamic>>> getLocations() async {
   //   try {
   //     var response = await http.get(Uri.parse(url + 'locations'));
